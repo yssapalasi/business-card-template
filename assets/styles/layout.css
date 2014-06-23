@@ -1,0 +1,94 @@
+/* -- Main Structure -- */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 5mm;
+  font-size: 12px;
+}
+
+body {
+  margin: 0 auto;
+  position: relative;
+  padding: 5mm;
+  background-size: cover;
+  backgrond-position: 50% 50%;
+  background-repeat: no-repeat;
+  color: hsl(160,20%,20%);
+  font-family: Arial, sans serif;
+  color:#474341;
+}
+
+h1{
+  font-family: 'Arial Black', Arial, sans-serif;
+  font-size:30px;
+  font-weight:900;
+  letter-spacing:-3px;
+  text-transform:uppercase;
+  margin:-5px 0 -5px -2px;
+}
+
+small{
+	text-transform:uppercase;
+	letter-spacing:6px;
+}
+
+p{margin:0; padding:0;}
+
+.panel.second{
+  width:78%;
+}
+
+.panel.third{
+  position:absolute;
+  right:-4mm;
+  bottom:-9.5mm;
+}
+
+/* -- Sections -- */
+
+.hero {
+  position: relative;
+  margin-top: -5mm;
+  margin-right: -5mm;
+}
+
+.hero .logo {
+  height: 6em;
+  width: 6em;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.hero .logo svg {
+  margin: 1.5em;
+  height: 3em;
+  width: 3em;
+  fill: white;
+}
+
+ul.contact-info {
+  margin: 0;
+  padding: 0.5mm 0 0 0;
+  list-style: none;
+}
+
+ul.contact-info li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 0.5em 0;
+  letter-spacing:2px;
+  font-weight: 900;
+  font-family: 'Arial Black', Arial, sans-serif;
+}
+ul.contact-info li:last-child{ margin-bottom:2mm;}
+ul.contact-info li span{
+  text-transform:uppercase;
+  font-size: smaller;
+  font-weight:700;
+  font-family: Arial, sans-serif;
+}
